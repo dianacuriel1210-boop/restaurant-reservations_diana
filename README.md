@@ -1,16 +1,18 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Esta plantilla proporciona una configuración básica para trabajar con React en Vite, con HMR (recarga en caliente de módulos) y algunas reglas de Oxlint.
 
-Currently, two official plugins are available:
+Actualmente, hay dos complementos oficiales disponibles:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **@vitejs/plugin-react:** utiliza Oxc.
+- **@vitejs/plugin-react-swc:** utiliza SWC.
 
-## React Compiler
+## Compilador de React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+El compilador de React no está habilitado en esta plantilla porque puede afectar el rendimiento durante el desarrollo y la compilación. Para agregarlo, consulta la [documentación de instalación del compilador de React](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
+## Ampliación de la configuración de Oxlint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Si estás desarrollando una aplicación para producción, se recomienda utilizar TypeScript con reglas de análisis de código que tengan en cuenta los tipos.
+
+Consulta la [plantilla de React con TypeScript](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) para obtener información sobre cómo integrarlo en tu proyecto.
